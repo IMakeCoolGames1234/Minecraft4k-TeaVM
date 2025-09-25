@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Minecraft 4k</title>
-    <script>
+<head>
+  <meta charset="UTF-8" />
+  <title>Minecraft 4k</title>
+  <script>
 "use strict";
 (function(module){if(typeof define==='function'&&define.amd){define(['exports'],function(exports){module(exports);});}else if(typeof exports==='object'&&exports!==null&&typeof exports.nodeName!=='string'){module(exports);}else{module(typeof self!=='undefined'?self:this);}}(function(B){let Da=2463534242,Ef=()=>{let x=Da;x^=x<<13;x^=x>>>17;x^=x<<5;Da=x;return x;},B1=f=>function(){return f(this);},CS=f=>function(p1){return f(this,p1);},DG=f=>function(){let args=Array.prototype.slice.apply(arguments);C8(function()
 {f.apply(this,args);});},DE=f=>(args,callback)=>{if(!args){args=[];}let javaArgs=BK(Bc(),args.length);for(let i=0;i<args.length;++i){javaArgs.data[i]=Bl(args[i]);}C8(()=>{f.call(null,javaArgs);},callback);},CN=target=>target.$clinit=()=>{},EF=obj=>{let cls=obj.constructor;let arrayDegree=0;while(cls.$meta&&cls.$meta.item){++arrayDegree;cls=cls.$meta.item;}let clsName="";if(cls.$meta.primitive){clsName=cls.$meta.name;}else {clsName=cls.$meta?cls.$meta.name||"a/"+cls.name:"@"+cls.name;}while(arrayDegree-->0){clsName
@@ -126,14 +126,14 @@ C.javaException=DL;
 let Fj=Symbol('jsoClass');
 (()=>{let c;c=B8.prototype;c.handleEvent=W(ES);c=B6.prototype;c.handleEvent=W(DW);c=B7.prototype;c.handleEvent=W(D4);c=B4.prototype;c.handleEvent=W(Ex);c=B5.prototype;c.handleEvent=W(E6);c=B2.prototype;c.handleEvent=W(EC);c=B3.prototype;c.handleEvent=W(Dt);c=B9.prototype;c.handleEvent=W(Eg);c=B$.prototype;c.handleEvent=W(DI);c=Ci.prototype;c.accept=W(EP);c=Ch.prototype;c.accept=W(E2);})();
 B.main=C;}));
-    </script>
-    <script>
-      window.addEventListener("load", () => {
-        main();
-      });
-    </script>
-  </head>
-  <body>
-    <canvas id="game_frame" fullscreen></canvas>
-  </body>
+  </script>
+  <script>
+    window.addEventListener("load", () => {
+      main();
+    });
+  </script>
+</head>
+<body>
+  <canvas id="game_frame" fullscreen></canvas>
+</body>
 </html>
